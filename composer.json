@@ -7,6 +7,7 @@
             "email": "1243194544@qq.com"
         }
     ],
+    "homepage": "https://github.com/DDjKazuma/RabbitQueue",
     "description": "a small rabbitmq driver for laravel queue",
     "autoload": {
         "psr-4": {
