@@ -28,7 +28,7 @@
     "require": {
         "php":"^7.4",
         "laravel/framework": "^8.0",
-        "php-amqplib/php-amqplib": "3.0.x-dev"
+        "php-amqplib/php-amqplib": "3.*"
     },
     "extra": {
         "laravel": {
