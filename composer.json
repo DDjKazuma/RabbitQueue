@@ -1,0 +1,39 @@
+{
+    "name": "DDjkazuma/RabbitQueue",
+    "type": "library",
+    "authors": [
+        {
+            "name": "lvpiao",
+            "email": "1243194544@qq.com"
+        }
+    ],
+    "description": "a small rabbitmq driver for laravel queue",
+    "autoload": {
+        "psr-4": {
+            "DDjkazuma\\RabbitQueue\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "9.5.x-dev"
+    },
+    "require": {
+        "php":"^7.4",
+        "laravel/framework": "^8.0",
+        "php-amqplib/php-amqplib": "3.0.x-dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DDjkazuma\\RabbitQueue\\RabbitQueueServiceProvider"
+            ]
+        }
+    }
+
+}
